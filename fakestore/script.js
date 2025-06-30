@@ -6,7 +6,7 @@ const searchInput = document.getElementById("search");
 let allProducts = [];
 let filteredProducts = [];
 let currentIndex = 0;
-const itemsPerPage = 8;
+const itemsPerPage = 5;
 
 async function fetchProducts(category = 'all') {
   const baseUrl = 'https://fakestoreapi.com/products';
